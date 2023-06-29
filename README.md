@@ -1,4 +1,4 @@
-# Vite Setup with Git Pages
+# Vite Setup (with Routing) and Easy Publish to Git Pages
 
 This is a clone of ["vite-react-router" (Github repo) by Erick Kuwahara](https://github.com/ErickKS/vite-react-router/tree/main) with the following differences:
 
