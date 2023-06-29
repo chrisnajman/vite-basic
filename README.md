@@ -3,13 +3,9 @@
 This is a clone of ["vite-react-router" (Github repo) by Erick Kuwahara](https://github.com/ErickKS/vite-react-router/tree/main) with the following differences:
 
 - I converted `.tsx` (typescript) files to `.jsx`.
-- In `main.tsx` (which I renamed `main.jsx`) I removed `as HTMLElement` from:
-
-```javascript
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-```
-
-This was because VS Code was complaining that it was typescript.
+- VS Code was complaining about it, so in `main.tsx` (which I renamed `main.jsx`) I removed `as HTMLElement` from:
+  `ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(...`
+- I extracted the `nav` to its own component (`components/Nav.js`).
 
 ## Installation and configuring the Git Repo
 
